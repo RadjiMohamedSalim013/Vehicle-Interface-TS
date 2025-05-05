@@ -1,39 +1,34 @@
-# Vehicle Interface TS
+\====================================
+**PROJET TYPESCRIPT — CLASSE ET INTERFACE : VOITURE**
+========================================================
 
-Bienvenue dans le projet **Vehicle Interface TS** !
+ **DESCRIPTION :**
+Ce projet montre comment utiliser une **interface** et une **classe** en TypeScript.
+On y crée un modèle simple de **voiture** qui peut démarrer via une méthode.
 
-Ce projet a pour objectif de pratiquer l'utilisation des **interfaces** et **classes** en **TypeScript**.  
-L'objectif est de créer une interface `Véhicule` et une classe `Voiture` qui implémente cette interface.
+ **CONTENU DU PROJET :**
 
-##  Installation
+* Une interface `Véhicule` avec les propriétés : `make`, `model`, `year` et la méthode `start()`.
+* Une classe `Voiture` qui implémente cette interface.
+* Une instance de la classe est créée, puis on appelle la méthode `start()` pour afficher un message.
 
-Clone le projet :
+ **FICHIERS INCLUS :**
 
-git clone https://github.com/ton-utilisateur/vehicle-interface-ts.git  
-cd vehicle-interface-ts
+* `index.ts` → Le code TypeScript
+* `index.js` → Le fichier JavaScript généré après compilation
 
-Installe les dépendances (si besoin) :
+ **COMMENT EXÉCUTER :**
 
-npm install
+1. Vérifie TypeScript : `tsc -v`
+2. Compile le fichier : `tsc index.ts`
+3. Lance le code compilé : `node index.js`
 
-Pour compiler le TypeScript en JavaScript :
+ **RÉSULTAT ATTENDU DANS LE TERMINAL :**
 
-npx tsc
+```
+Voiture démarrer
+```
 
-Pour exécuter le fichier JavaScript :
-
-node nom_du_fichier.js
-
-##  Statut du projet
-
-Le projet est **en cours de réalisation**.  
-Les différentes étapes sont progressivement mises en place.
-
-##  Objectifs
-
-- Définir une interface `Véhicule`
-- Implémenter une classe `Voiture` basée sur cette interface
-- Créer une instance de la classe et tester la méthode `start`
-- Compiler et exécuter le code
+---
 
 
